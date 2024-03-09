@@ -1489,4 +1489,4 @@ if __name__ == "__main__":
 
     os.environ["no_proxy"] = "localhost,127.0.0.1,0.0.0.0"
     webbrowser.open("http://127.0.0.1:6007")
-    app.launch(share=False, server_port=6007)
+    app.launch(share=True, server_port=6007)
